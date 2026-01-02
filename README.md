@@ -3,6 +3,6 @@ UniTask Manager is a database-driven task management system developed as part of
 ## Diagram
 ![Diagram](Diagram.jpeg)
 ## Schema
-![Schema](Schema.jpeg)
+![Schema](Schema.jpg)
 ## Normalization
-![Normalization](Normalization.jpeg)
+![Normalization](Normalization.png)
