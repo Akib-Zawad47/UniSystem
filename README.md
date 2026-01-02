@@ -97,13 +97,14 @@ The database consists of the following key entities:
 ├── student_dashboard.php  # Main dashboard for Students
 └── teacher_dashboard.php  # Main dashboard for Teachers
 ---
+```
 
 
 ---
 ## 👤 Author
 
-**Akib Zawad**
-**Enan Mahmud**
+* **Akib Zawad**
+* **Enan Mahmud**
 ---
 
 
