@@ -1,3 +1,5 @@
+CREATE DATABASE university_db;
+USE university_db;
 
 CREATE TABLE `admin` (
   `a_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -96,4 +98,5 @@ CREATE TABLE `task` (
   FOREIGN KEY (`t_id`) REFERENCES `teacher` (`t_id`) ON DELETE CASCADE,
   FOREIGN KEY (`c_id`, `section`) REFERENCES `course` (`c_id`, `section`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
