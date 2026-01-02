@@ -1,4 +1,4 @@
-# UniSystem Manager CSE370 Project
+# UniSystem CSE370 Project
 
 ## 📚 Course Information
 
@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-**UniSystem Manager** is a database-driven task management system developed as part of the **CSE370 (Database) Lab**. The project focuses on designing and implementing a structured relational database to manage academic tasks efficiently.
+**UniSystem** is a database-driven task management system developed as part of the **CSE370 (Database) Lab**. The project focuses on designing and implementing a structured relational database to manage academic tasks efficiently.
 
 This system demonstrates core database concepts such as entity-relationship modeling, normalization, primary and foreign keys, and CRUD (Create, Read, Update, Delete) operations.
 
