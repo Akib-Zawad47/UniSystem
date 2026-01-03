@@ -1,0 +1,10 @@
+UniSystem (A Unified Task Management System)
+============================================
+Feature List:
+
+Feature 1 : Admin User Verification System
+Feature 2 : Task Management System 
+Feature 3 : Resources Sharing Center
+Feature 4 : Student Course Enrollment System
+Feature 5 : Teacher Allocation System
+Feature 6 : Role Based Access Control System 
