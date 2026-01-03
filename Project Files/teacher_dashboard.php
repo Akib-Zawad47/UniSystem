@@ -29,7 +29,7 @@ if (isset($_POST['post_task'])) {
         $task_num = $_POST['task_number'];
         $desc = $_POST['description'];
         
-        $sql = "INSERT INTO task (task_id, teacher_id, c_id, section, due_date, type, task_number, description) 
+        $sql = "INSERT INTO task (task_id, t_id, c_id, section, due_date, type, task_number, description) 
                 VALUES ('$task_id', '$t_id', '$c_id', '$sec', '$due', '$type', '$task_num', '$desc')";
         
         if ($conn->query($sql)) $message = "<div class='alert alert-success'>Task posted successfully!</div>";
@@ -41,14 +41,14 @@ if (isset($_POST['post_task'])) {
 
 if (isset($_POST['delete_task'])) {
     $task_id = $_POST['task_id'];
-    $conn->query("DELETE FROM task WHERE task_id='$task_id' AND teacher_id='$t_id'");
+    $conn->query("DELETE FROM task WHERE task_id='$task_id' AND t_id='$t_id'");
     $message = "<div class='alert alert-warning'>Task deleted.</div>";
 }
 
 if (isset($_POST['update_task'])) {
     $task_id = $_POST['task_id'];
     $new_date = $_POST['new_due_date'];
-    $conn->query("UPDATE task SET due_date='$new_date' WHERE task_id='$task_id' AND teacher_id='$t_id'");
+    $conn->query("UPDATE task SET due_date='$new_date' WHERE task_id='$task_id' AND t_id='$t_id'");
     $message = "<div class='alert alert-success'>Date updated!</div>";
 }
 
@@ -270,4 +270,5 @@ if (isset($_GET['c_id']) && isset($_GET['section'])) {
 </script>
 
 </body>
+
 </html>
